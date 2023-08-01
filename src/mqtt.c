@@ -96,7 +96,7 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
 void mqtt_start(){
     esp_mqtt_client_config_t mqtt_config = {
         .broker.address.uri = "mqtt://164.41.98.25",
-        .credentials.username = "LqJCqP6eHsA5kzQnoYcO",
+        .credentials.username = "",
 
     };
     client = esp_mqtt_client_init(&mqtt_config);
